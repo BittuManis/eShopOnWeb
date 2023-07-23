@@ -4,7 +4,7 @@ name: eShopOnWeb Build and Test
 on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
-#env:
+env:
   RESOURCE-GROUP: rg-az400-eshoponweb-Manish
   LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
